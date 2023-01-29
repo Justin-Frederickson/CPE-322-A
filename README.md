@@ -26,5 +26,5 @@
 ![stevens-logo-500x132](https://user-images.githubusercontent.com/112715031/215340642-598cfbcb-99d2-4abe-86d1-b4a6ea960f61.png)
 
 **Week 1 Class**
-<sub>This class was used introduce the introductory material for the course and set expectations for the rest of the semester.</sub>
+-<sub>This class was used introduce the introductory material for the course and set expectations for the rest of the semester.</sub>
 
