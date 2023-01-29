@@ -3,4 +3,4 @@
 ## Engineering Design 6
 ### Justin Frederickson
 
-<In this class, I want to better my coding and technical skills. I am excited to partake in projects during this course and learn from my peers and hopefully teach them something as well>
+<sub>In this class, I want to better my coding and technical skills. I am excited to partake in projects during this course and learn from my peers and hopefully teach them something as well</sub>
