@@ -5,7 +5,7 @@
 
 <sub>In this class, I want to better my coding and technical skills. I am excited to partake in projects during this course and learn from my peers and hopefully teach them something as well.</sub>
 
-[Assignment Canvas Page] (https://sit.instructure.com/courses/64902/assignments)
+[Assignment Canvas Page](https://sit.instructure.com/courses/64902/assignments)
 - [x] Assignment 0: GitHub Repository 
 - [ ] Assignment 1: Project Site
 - [ ] Assignment 2: Needs Assessment
