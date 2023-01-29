@@ -28,6 +28,7 @@
 
 **Week 1 Class:**
 - This class was used introduce the introductory material for the course and set expectations for the rest of the semester.
+  - Do Assignment 0 in Canvas.
 
 **Week 2 Class:**
 
