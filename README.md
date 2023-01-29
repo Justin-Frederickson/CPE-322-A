@@ -22,4 +22,4 @@
 - [ ] Assignment 11.2: Gantt Chart
 - [ ] Assignment 11.3: Senior Design Plan
 
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fweb.stevens.edu%2Fnews%2Fnewspoints%2Fbrand-logos%2F&psig=AOvVaw0rYvk_kH7dKMVnZyK39o7h&ust=1675096412996000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCLDVzMua7fwCFQAAAAAdAAAAABAH
+(https://www.google.com/url?sa=i&url=https%3A%2F%2Fweb.stevens.edu%2Fnews%2Fnewspoints%2Fbrand-logos%2F&psig=AOvVaw0rYvk_kH7dKMVnZyK39o7h&ust=1675096412996000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCLDVzMua7fwCFQAAAAAdAAAAABAH)
