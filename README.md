@@ -4,7 +4,6 @@
 # CPE-322-A: Meet Monday 10:00-11:50 AM in Babbio 104
 ## Engineering Design 6
 ### Justin Frederickson - Project Group 7
-[Resume](https://docs.google.com/document/d/1va3heN4dW-XsnUhanmFe5RrPxT3Us77RtARnY12ex4M/edit)
 
 <sub>In this class, I want to better my coding and technical skills. I am excited to partake in projects during this course and learn from my peers and hopefully teach them something as well.</sub>
 
