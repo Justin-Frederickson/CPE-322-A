@@ -29,4 +29,4 @@
   - Do Assignment 0 in Canvas.
 
 **Week 2 Class:**
-
+[Slides](https://docs.google.com/presentation/d/1Uh1TXoYzjnceXi6R4fjWkOPfbCHY4uNWmRdT_rICJ2c/edit#slide=id.p4)
