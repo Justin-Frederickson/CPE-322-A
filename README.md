@@ -1,6 +1,6 @@
 
 ![stevens-logo-500x132](https://user-images.githubusercontent.com/112715031/215340642-598cfbcb-99d2-4abe-86d1-b4a6ea960f61.png) 
-
+  ![Alt Text] (https://media.giphy.com/media/Y0zTJ7VrKo9P2/giphy.gif)
 # CPE-322-A: Meet Monday 10:00-11:50 AM in Babbio 104
 ## Engineering Design 6
 ### Justin Frederickson - Project Group 7
