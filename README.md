@@ -25,8 +25,11 @@
 - [ ] Assignment 11.3: Senior Design Plan
 
 **Week 1 Class:**
-- This class was used introduce the introductory material for the course and set expectations for the rest of the semester.
+- This class was used to introduce the introductory material for the course and set expectations for the rest of the semester.
   - Do Assignment 0 in Canvas.
 
 **Week 2 Class:**
 [Slides](https://docs.google.com/presentation/d/1Uh1TXoYzjnceXi6R4fjWkOPfbCHY4uNWmRdT_rICJ2c/edit#slide=id.p4)
+- This class was used to
+  - Do Assignment 1 in Canvas
+  - Do Lab 1 and publish into GitHub (Either learn VHDL or Verilog)
