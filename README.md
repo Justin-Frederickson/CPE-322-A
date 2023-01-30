@@ -25,6 +25,7 @@
 - [ ] Assignment 11.3: Senior Design Plan
 
 **Week 1 Class:**
+[Slides](https://docs.google.com/presentation/d/1EON8wVCtc3M37qrlbpdFvbo2FVSsxpGTJ8VCOo5dSWI/edit)
 - This class was used to introduce the introductory material for the course and set expectations for the rest of the semester.
   - Do Assignment 0 in Canvas.
 
