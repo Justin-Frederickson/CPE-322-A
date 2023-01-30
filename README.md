@@ -1,4 +1,4 @@
-<p align="middle">
+
 ![stevens-logo-500x132](https://user-images.githubusercontent.com/112715031/215340642-598cfbcb-99d2-4abe-86d1-b4a6ea960f61.png)
 # CPE-322-A: Meet Monday 10:00-11:50 AM in Babbio 104
 ## Engineering Design 6
