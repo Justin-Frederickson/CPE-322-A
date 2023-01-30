@@ -31,6 +31,6 @@
 
 **Week 2 Class:**
 [Slides](https://docs.google.com/presentation/d/1Uh1TXoYzjnceXi6R4fjWkOPfbCHY4uNWmRdT_rICJ2c/edit#slide=id.p4)
-- This class was used to 
+- This class was used to identify some of the attributes that an engineer should possess to be successful and describe the stages of the engineering design process used to develop innovative solutions to technical problems.
   - Do Assignment 1 in Canvas
   - Do Lab 1 and publish into GitHub (Either learn VHDL or Verilog)
