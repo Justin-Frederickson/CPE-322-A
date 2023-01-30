@@ -1,5 +1,5 @@
 
-![download](https://user-images.githubusercontent.com/112715031/215598611-19071fcb-173d-4508-828c-b805356d89a4.png)
+
 ![Alt Text](https://media.giphy.com/media/Y0zTJ7VrKo9P2/giphy.gif)
 # CPE-322-A: Meet Monday 10:00-11:50 AM in Babbio 104
 ## Engineering Design 6
