@@ -34,3 +34,7 @@
 - This class was used to identify some of the attributes that an engineer should possess to be successful and describe the stages of the engineering design process used to develop innovative solutions to technical problems.
   - Do Assignment 1 in Canvas
   - Do Lab 1 and publish into GitHub (Either learn VHDL or Verilog)
+  
+  ##Lab 1 - GHDL and GTKWave
+  
+  
