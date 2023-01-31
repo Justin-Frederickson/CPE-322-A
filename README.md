@@ -64,11 +64,12 @@ $ gtkwave dff.vcd
 
 ### Obstacles that were ran into: 
 - In order to run GTKWave, an X-server is needed, which Windows does not have automatically. 
-  - Which would cause this error:
+  - Which would cause this error when trying to run GTKWave without an X-server:
   
   ![half adder code 1](https://user-images.githubusercontent.com/112715031/215638323-9c1197e6-af68-486e-b0d7-b60c34973afa.JPG)
 
 - [Xming](https://sourceforge.net/projects/xming/) was downloaded in order to have a working X-server.
     - This explains the $ export DISPLAY =:0 line of code. This enables the user to run commands that need an X-server.
+      - [Thank you to these people for helping me out](https://stackoverflow.com/questions/65844764/could-not-initialize-gtk-is-display-env-var-xhost-set-on-debian-wsl#:~:text=The%20error%20is%20due%20to,that%20require%20an%20X%20server.)
 
     
