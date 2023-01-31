@@ -32,9 +32,43 @@
 **Week 2 Class:**
 [Slides](https://docs.google.com/presentation/d/1Uh1TXoYzjnceXi6R4fjWkOPfbCHY4uNWmRdT_rICJ2c/edit#slide=id.p4)
 - This class was used to identify some of the attributes that an engineer should possess to be successful and describe the stages of the engineering design process used to develop innovative solutions to technical problems.
-  - Do Assignment 1 in Canvas
-  - Do Lab 1 and publish into GitHub (Either learn VHDL or Verilog)
+  - Do Assignment 1 in Canvas.
+  - Do Lab 1 and publish into GitHub (Either learn VHDL or Verilog).
   
-# Lab 1 - GHDL and GTKWave
+## Lab 1 - GHDL and GTKWave
+- For this lab, I needed to install GHDL and GTKWave and perform different examples.
+  - This was performed in [Ubuntu](https://ubuntu.com/)
   
+### Half-Adder Example Code:
+```sh
+$ ghdl -a ha.vhdl
+$ ghdl -a ha_tb.vhdl
+$ ghdl -e ha_tb
+$ ghdl -r ha_tb --vcd=ha.vcd
+ha_tb.vhdl:47:5:@5ns:(assertion error): Reached end of test
+$ export DISPLAY=:0
+$ gtkwave ha.vcd
+```  
+![half adder](https://user-images.githubusercontent.com/112715031/215637050-99fff18b-db58-4818-96e1-9f6105d51d07.JPG)
+
+### D Flip Flop Example Code:
+```sh
+$ ghdl -a dff.vhdl
+$ ghdl -a dff_tb.vhdl
+$ ghdl -e dff_tb
+$ ghdl -r dff_tb --vcd=dff.vcd
+$ export DISPLAY =:0
+$ gtkwave dff.vcd
+```
+![flip flop gtk](https://user-images.githubusercontent.com/112715031/215637314-429526d2-4dd4-4ef8-bcc6-df8d55c6983e.JPG)
+
+### Obstacles that were ran into: 
+- In order to run GTKWave, an X-server is needed, which Windows does not have automatically. 
+  - Which would cause this error:
   
+  ![half adder code 1](https://user-images.githubusercontent.com/112715031/215638323-9c1197e6-af68-486e-b0d7-b60c34973afa.JPG)
+
+- [Xming](https://sourceforge.net/projects/xming/) was downloaded in order to have a working X-server.
+    - This explains the $ export DISPLAY =:0 line of code. This enables the user to run commands that need an X-server.
+
+    
