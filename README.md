@@ -72,4 +72,6 @@ $ gtkwave dff.vcd
     - This explains the $ export DISPLAY =:0 line of code. This enables the user to run commands that need an X-server.
       - [Thank you to these people for helping me out](https://stackoverflow.com/questions/65844764/could-not-initialize-gtk-is-display-env-var-xhost-set-on-debian-wsl#:~:text=The%20error%20is%20due%20to,that%20require%20an%20X%20server.)
 
+**Week 3 Class:**
+[Slides](https://docs.google.com/presentation/d/1Q7mT4uKBsrwoN9vUQ16G_DVsxvoeXVz9X-wufzpt1m4/edit#slide=id.p4)
     
