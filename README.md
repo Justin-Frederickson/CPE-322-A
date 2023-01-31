@@ -35,6 +35,6 @@
   - Do Assignment 1 in Canvas
   - Do Lab 1 and publish into GitHub (Either learn VHDL or Verilog)
   
-#Lab 1 - GHDL and GTKWave
+# Lab 1 - GHDL and GTKWave
   
   
