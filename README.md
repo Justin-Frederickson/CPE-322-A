@@ -84,8 +84,12 @@ $ gtkwave mux.vcd
   - In order to start the server after downloading Xming, use Xlaunch and click "Next" until you reach a screen as shown. Click "Finish" to start server.
   
   ![xming](https://user-images.githubusercontent.com/112715031/215922972-daf50887-d050-4316-92ca-d9ec0e2ddb2e.JPG)
+  
+  - You can check within task manager to make sure that the server is running: 
+  
+  ![xming in task](https://user-images.githubusercontent.com/112715031/215923937-9673e731-f8eb-4e1e-a4a6-4e106b4e2c9d.JPG)
 
-  - This explains the $ export DISPLAY=:0 line of code. This enables the user to run commands that need an X-server.
+  - This server running explains the $ export DISPLAY=:0 line of code. This enables the user to run commands that need an X-server. The X-server simply creates the display that GTKWave would produce. 
     - [Thank you to these people for helping me out](https://stackoverflow.com/questions/65844764/could-not-initialize-gtk-is-display-env-var-xhost-set-on-debian-wsl#:~:text=The%20error%20is%20due%20to,that%20require%20an%20X%20server.)
 
 ***Week 3 Class:***
