@@ -81,8 +81,8 @@ $ gtkwave mux.vcd
   ![half adder code 1](https://user-images.githubusercontent.com/112715031/215638323-9c1197e6-af68-486e-b0d7-b60c34973afa.JPG)
 
 - [Xming](https://sourceforge.net/projects/xming/) was downloaded in order to have a working X-server.
-  - In order to start the server after downloading Xming, use Xlaunch and click "next" until you reach a screen as shown. Click "Finish" to start server.
-  - 
+  - In order to start the server after downloading Xming, use Xlaunch and click "Next" until you reach a screen as shown. Click "Finish" to start server.
+  
   ![xming](https://user-images.githubusercontent.com/112715031/215922972-daf50887-d050-4316-92ca-d9ec0e2ddb2e.JPG)
 
   - This explains the $ export DISPLAY=:0 line of code. This enables the user to run commands that need an X-server.
