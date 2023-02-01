@@ -63,15 +63,29 @@ $ gtkwave dff.vcd
 ```
 ![flip flop gtk](https://user-images.githubusercontent.com/112715031/215637314-429526d2-4dd4-4ef8-bcc6-df8d55c6983e.JPG)
 
-### Obstacles that were ran into: 
+### 4-to-1 Multiplexer
+```sh
+$ ghdl -a mux.vhdl
+$ ghdl -a mux_tb.vhdl
+$ ghdl -e mux_tb
+$ ghdl -r mux_tb --vcd=mux.vcd
+$ export DISPLAY=:0
+$ gtkwave mux.vcd
+```
+![4 to 1 multi](https://user-images.githubusercontent.com/112715031/215922535-51b057cb-b620-4328-a0d8-d7ac483074b9.JPG)
+
+### Obstacles That Were Ran Into: 
 - In order to run GTKWave, an X-server is needed, which Windows does not have automatically. 
   - Which would cause this error when trying to run GTKWave without an X-server:
   
   ![half adder code 1](https://user-images.githubusercontent.com/112715031/215638323-9c1197e6-af68-486e-b0d7-b60c34973afa.JPG)
 
 - [Xming](https://sourceforge.net/projects/xming/) was downloaded in order to have a working X-server.
-    - This explains the $ export DISPLAY =:0 line of code. This enables the user to run commands that need an X-server.
-      - [Thank you to these people for helping me out](https://stackoverflow.com/questions/65844764/could-not-initialize-gtk-is-display-env-var-xhost-set-on-debian-wsl#:~:text=The%20error%20is%20due%20to,that%20require%20an%20X%20server.)
+  - In order to start the server after downloading Xming, use Xlaunch and click "next" until you reach a screen as shown. Click "finsih" to start server
+  ![xming](https://user-images.githubusercontent.com/112715031/215922972-daf50887-d050-4316-92ca-d9ec0e2ddb2e.JPG)
+
+  - This explains the $ export DISPLAY=:0 line of code. This enables the user to run commands that need an X-server.
+    - [Thank you to these people for helping me out](https://stackoverflow.com/questions/65844764/could-not-initialize-gtk-is-display-env-var-xhost-set-on-debian-wsl#:~:text=The%20error%20is%20due%20to,that%20require%20an%20X%20server.)
 
 **Week 3 Class:**
 [Slides](https://docs.google.com/presentation/d/1Q7mT4uKBsrwoN9vUQ16G_DVsxvoeXVz9X-wufzpt1m4/edit#slide=id.p4)
