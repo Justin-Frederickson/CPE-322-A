@@ -38,6 +38,7 @@
 ## Lab 1 - GHDL and GTKWave
 - For this lab, I needed to install GHDL and GTKWave and perform different examples.
   - This was performed in [Ubuntu](https://ubuntu.com/)
+  - [Link to Lab](https://github.com/kevinwlu/dsd/tree/master/ghdl)
   
 ### Half-Adder Example Code:
 ```sh
