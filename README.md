@@ -94,4 +94,6 @@ $ gtkwave mux.vcd
 
 ***Week 3 Class:***
 [Slides](https://docs.google.com/presentation/d/1Q7mT4uKBsrwoN9vUQ16G_DVsxvoeXVz9X-wufzpt1m4/edit#slide=id.p4)
-    
+- This class
+  - Do Assignment 2
+  - Do Lab 2
