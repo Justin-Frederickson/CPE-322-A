@@ -97,3 +97,64 @@ $ gtkwave mux.vcd
 - This class went over design proposals and focused on what makes a good design proposal.
   - Do Assignment 2
   - Do Lab 2
+
+## Lab 2: Command Line ##
+- We were given different processes to execute in a Terminal for this lab
+  - This was performed in [Ubuntu](https://ubuntu.com/)
+```sh
+$ hostname 
+$ env
+```
+![hostname env](https://user-images.githubusercontent.com/112715031/217091959-fe2697c5-d6cb-46d4-be5b-09ac82f98746.JPG)
+
+```sh
+$ ps
+$ pwd 
+$ git clone https://github.com/kevinwlu/iot.git
+$ cd iot
+$ ls
+$ cd
+```
+![pspwdgitclonecdiotcd](https://user-images.githubusercontent.com/112715031/217092181-0b03d8cf-bb87-4307-a035-c691eb87d51d.JPG)
+
+```sh
+$ df
+$ mkdir demo
+$ cd demo
+$ nano file
+$ cat file
+$ cp file file1
+$ mv file file2
+$rm file2
+```
+![nanocat file](https://user-images.githubusercontent.com/112715031/217093010-66ba9bd3-86f9-4160-9c44-bca7c7d48d32.JPG)
+
+```sh
+$ clear
+```
+![clear](https://user-images.githubusercontent.com/112715031/217093097-8b30a686-3ec9-4439-accb-90468336c568.JPG)
+
+```sh
+$ man uname 
+```
+![man uname](https://user-images.githubusercontent.com/112715031/217093445-791ca549-a24c-4efd-a7d3-a23b61ab633d.JPG)
+
+```sh
+$ uname -a
+$ ifconfig
+```
+![uname a ifconfig (2)](https://user-images.githubusercontent.com/112715031/217094080-2eba964f-fcf6-4d09-aeba-da86cfa7531d.jpg)
+
+```sh
+$ ping localhost
+$ netstat
+```
+![ping and net (2)](https://user-images.githubusercontent.com/112715031/217094333-d9e02ff8-966b-427e-9cd9-e36304617dbc.jpg)
+
+***Week 4 Class***
+[Slides](https://docs.google.com/presentation/d/1xiEvUE-jEBfzjii-egaJDa2-X8TgDXZcqa2o6Ssakto/edit#slide=id.p4)
+
+
+
+
+
