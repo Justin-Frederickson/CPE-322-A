@@ -103,7 +103,7 @@ $ gtkwave mux.vcd
   - Do Lab 2
 
 ## Lab 2: Command Line ##
-- We were given different processes to execute in a Terminal for this lab
+- We were given different processes to execute in a Terminal for this lab.
   - This was performed in [Ubuntu](https://ubuntu.com/)
 ```sh
 $ hostname 
