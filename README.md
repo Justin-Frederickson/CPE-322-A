@@ -151,7 +151,7 @@ $ netstat
 ```
 ![ping and net (2)](https://user-images.githubusercontent.com/112715031/217094333-d9e02ff8-966b-427e-9cd9-e36304617dbc.jpg)
 
-***Week 4 Class***
+***Week 4 Class:***
 [Slides](https://docs.google.com/presentation/d/1xiEvUE-jEBfzjii-egaJDa2-X8TgDXZcqa2o6Ssakto/edit#slide=id.p4)
 
 
