@@ -10,7 +10,7 @@
 [Assignment Canvas Page](https://sit.instructure.com/courses/64902/assignments)
 - [x] Assignment 0: GitHub Repository 
 - [x] Assignment 1: Project Site
-- [ ] Assignment 2: Needs Assessment
+- [x] Assignment 2: Needs Assessment
 - [ ] Assignment 3: Problem Formulation
 - [ ] Assignment 4: Solution Development
 - [ ] Assignment 5: Intellectual Properties
