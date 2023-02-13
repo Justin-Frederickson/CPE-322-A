@@ -79,7 +79,7 @@ $ gtkwave mux.vcd
 ```
 ![4 to 1 multi](https://user-images.githubusercontent.com/112715031/215922535-51b057cb-b620-4328-a0d8-d7ac483074b9.JPG)
 
-### Obstacles That Were Ran Into: 
+### Issues That Were Ran Into: 
 - In order to run GTKWave, an X-server is needed, which Windows does not have automatically. 
   - Which would cause this error when trying to run GTKWave without an X-server:
   
@@ -163,7 +163,7 @@ $ netstat
   - Do Lab 3
 
 ## Lab 3: Python ##
-- We were given different processes to execute using Python
+- We were given different processes to execute using Python.
   - This was performed in [Ubuntu](https://ubuntu.com/)
   
 First of all, pip, jdcal, astral, and geopy needed to be installed:
