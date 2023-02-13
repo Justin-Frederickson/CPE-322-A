@@ -27,6 +27,7 @@
 ## Take Me To: 
 [Lab 1](https://github.com/Justin-Frederickson/CPE-322-A/blob/main/README.md#lab-1---ghdl-and-gtkwave)
 [Lab 2](https://github.com/Justin-Frederickson/CPE-322-A/blob/main/README.md#lab-2-command-line)
+[Lab 3](https://github.com/Justin-Frederickson/CPE-322-A/edit/main/README.md#lab-3-python)
 
 ***Week 1 Class:***
 [Slides](https://docs.google.com/presentation/d/1EON8wVCtc3M37qrlbpdFvbo2FVSsxpGTJ8VCOo5dSWI/edit)
@@ -157,8 +158,59 @@ $ netstat
 
 ***Week 4 Class:***
 [Slides](https://docs.google.com/presentation/d/1xiEvUE-jEBfzjii-egaJDa2-X8TgDXZcqa2o6Ssakto/edit#slide=id.p4)
+- This class went over problem statements and honed in on how to analyze a problem and convey that for our Design Project. 
+  - Do Assignment 3
+  - Do Lab 3
 
+## Lab 3: Python ##
+- We were given different processes to execute using Python
+  - This was performed in [Ubuntu](https://ubuntu.com/)
+  
+First of all, pip, jdcal, astral, and geopy needed to be installed:
+```sh
+$ sudo apt install python3-pip
+$ sudo pip3 install jdcal
+$ sudo pip3 install astral
+$ sudo pip3 install geopy
+```
+![pipo](https://user-images.githubusercontent.com/112715031/218526931-220299a3-fe59-48ce-a406-177b5d9578f1.JPG)
+![installingpip](https://user-images.githubusercontent.com/112715031/218526946-541f945c-0044-40c9-950d-38a74c923df8.JPG)
 
+```sh
+$ cd ~/iot
+$ cd *3
+$ python3 julian.py
+$ python3 date_example.py
+$ python3 datetime_example.py
+$ python3 time_example.py
+```
+![iottotime](https://user-images.githubusercontent.com/112715031/218527243-b4495fa9-0d54-4128-853c-581978706735.jpg)
 
+```sh
+$ python3 sun.py 'New York'
+$ python3 moon.py
+$ python3 coordinates.py 'SC Williams Library'
+$ python3 address.py '40.74480675, -74.02532862031404'
+```
+![suntoaddress](https://user-images.githubusercontent.com/112715031/218527387-cf0cafbd-4819-4aba-8569-a077a67b63b6.JPG)
 
+```sh
+$ python3 cpu.py
+$ python3 battery.py
+$ python3 documentstats.py document.txt
+```
+![cputodoc](https://user-images.githubusercontent.com/112715031/218527502-da68303b-e6ca-4d9e-b97f-3ec644e552a4.JPG)
 
+### Issues That Were Ran Into: ###
+- When executing specifically $ python3 sun.py 'New York', this error would appear:
+![error pytz](https://user-images.githubusercontent.com/112715031/218528359-376e0c99-74a8-476f-8add-cf4c816371c5.JPG)
+
+- As well, when executing $ python3 cpu.py and $ python3 battery.py, this error would appear:
+![psutil error](https://user-images.githubusercontent.com/112715031/218528619-eab5530d-3e82-488f-b4ec-8d0016ce30e4.JPG)
+
+- These issues were solved by installing pytz and psutil, respectively.
+![installpytz](https://user-images.githubusercontent.com/112715031/218529015-3267b670-b11a-4229-a588-f6eae034b4a7.JPG)
+![installpsutil](https://user-images.githubusercontent.com/112715031/218529033-677b203a-9135-4865-ae5d-07ef5f9c4f30.JPG)
+
+***Week 4 Class:***
+[Slides](https://docs.google.com/presentation/d/1BQ9d0ZyjfMNBwducPZR1NMWj0qJrTKf6XpInYHuRyhw/edit#slide=id.p4)
