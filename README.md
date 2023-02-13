@@ -27,7 +27,7 @@
 ## Take Me To: 
 [Lab 1](https://github.com/Justin-Frederickson/CPE-322-A/blob/main/README.md#lab-1---ghdl-and-gtkwave)
 [Lab 2](https://github.com/Justin-Frederickson/CPE-322-A/blob/main/README.md#lab-2-command-line)
-[Lab 3](https://github.com/Justin-Frederickson/CPE-322-A/edit/main/README.md#lab-3-python)
+[Lab 3]
 
 ***Week 1 Class:***
 [Slides](https://docs.google.com/presentation/d/1EON8wVCtc3M37qrlbpdFvbo2FVSsxpGTJ8VCOo5dSWI/edit)
