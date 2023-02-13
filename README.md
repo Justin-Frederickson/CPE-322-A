@@ -27,7 +27,7 @@
 ## Take Me To: 
 [Lab 1](https://github.com/Justin-Frederickson/CPE-322-A/blob/main/README.md#lab-1---ghdl-and-gtkwave)
 [Lab 2](https://github.com/Justin-Frederickson/CPE-322-A/blob/main/README.md#lab-2-command-line)
-[Lab 3]
+[Lab 3](https://github.com/Justin-Frederickson/CPE-322-A/blob/main/README.md#lab-3-python)
 
 ***Week 1 Class:***
 [Slides](https://docs.google.com/presentation/d/1EON8wVCtc3M37qrlbpdFvbo2FVSsxpGTJ8VCOo5dSWI/edit)
@@ -212,5 +212,5 @@ $ python3 documentstats.py document.txt
 ![installpytz](https://user-images.githubusercontent.com/112715031/218529015-3267b670-b11a-4229-a588-f6eae034b4a7.JPG)
 ![installpsutil](https://user-images.githubusercontent.com/112715031/218529033-677b203a-9135-4865-ae5d-07ef5f9c4f30.JPG)
 
-***Week 4 Class:***
+***Week 5 Class:***
 [Slides](https://docs.google.com/presentation/d/1BQ9d0ZyjfMNBwducPZR1NMWj0qJrTKf6XpInYHuRyhw/edit#slide=id.p4)
