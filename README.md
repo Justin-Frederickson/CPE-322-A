@@ -11,7 +11,7 @@
 - [x] Assignment 0: GitHub Repository 
 - [x] Assignment 1: Project Site
 - [x] Assignment 2: Needs Assessment
-- [ ] Assignment 3: Problem Formulation
+- [x] Assignment 3: Problem Formulation
 - [ ] Assignment 4: Solution Development
 - [ ] Assignment 5: Intellectual Properties
 - [ ] Assignment 6: Abstraction and Modeling
@@ -214,3 +214,68 @@ $ python3 documentstats.py document.txt
 
 ***Week 5 Class:***
 [Slides](https://docs.google.com/presentation/d/1BQ9d0ZyjfMNBwducPZR1NMWj0qJrTKf6XpInYHuRyhw/edit#slide=id.p4)
+ - In this class
+  - Do Lab 4
+  - Do Assignment 4
+  
+ ## Lab 4: Django and Flask ##
+ - For this lab, we were tasked with installing, Django, Django REST Framework, and Task.
+ - We would run each individual server and record our processes.
+  - Django and Django REST Framework could not be ran, and I will explain why in the respective seciton.
+  
+### Django and Django REST Framework ###
+ - Installing Django and Django REST framework:
+ ```sh
+$ pip3 -V
+$ pip3 list
+$ sudo pip3 install -U setuptools
+```
+![v to setup](https://user-images.githubusercontent.com/112715031/220395391-8ffabb65-94bc-4b7b-be58-5a91a6df27a9.JPG)
+```sh
+$ sudo pip3 install -U django
+$ sudo pip3 install -U djangorestframework
+$ sudo pip3 install -U django-filter
+$ sudo pip3 install -U markdown
+$ sudo pip3 install -U requests
+```
+![django to requests](https://user-images.githubusercontent.com/112715031/220395588-d2672515-f3cb-423a-9dc7-288ce1c41a64.JPG)
+- Install MariaDB Server
+```sh
+$ sudo apt install mariadb-server mariadb-client
+$ sudo apt install python3-mysqldb
+```
+![mariatomysqldb](https://user-images.githubusercontent.com/112715031/220396303-c136c258-ba42-4e4b-ab81-71c8653a0dce.JPG)
+- Error performing:
+```sh
+$ sudo apt install python3-mysqldb
+```
+- Error shows mysql and mariadb are not found, however previous picture shows they were installed correctly.
+![mysql error](https://user-images.githubusercontent.com/112715031/220396781-d38fdde1-c956-4b45-a10b-d94c9d9787cc.JPG)
+- Used this command to try and remedy the situation, however error still persisted. 
+```sh
+$ sudo apt install mysql-server mysqlclient
+```
+![mysqlinstall for secure](https://user-images.githubusercontent.com/112715031/220397240-ae51ad86-a0dc-479a-a01c-ed9a516a3632.JPG)
+- Using the mysql_secure_installation command proved to not run either. The password could not be made out, and even pressing enter for no password would provide a similar error.
+- Doing research on the error, I needed to make sure the SQL server is even running, and running a command to check shows that it is not. 
+- I believe this section of the Lab is not possible for me without a Raspberry Pi. The Raspberry Pi would be running this SQL server, and seeing how the instructions are made out for this section to be done on a Raspberry Pi and my peers having success with this section on their own Raspberry Pi confirms my thoughts. 
+```sh
+$ sudo mysql_secure_installation
+$ sudo systemct1 status mysql
+```
+![thislabnotworkinglol](https://user-images.githubusercontent.com/112715031/220398511-0ee37209-e249-4179-8d26-40c820690516.JPG)
+
+### Flask ###
+- After using the cd command to get into the lesson4 Github folder, Flask needed to be installed. 
+- After Installation, the command to run the server could be made and the output coould be seen via a browser (http://127.0.0.1:5000/)
+- It also does not mention using a Raspberry Pi for this section, which helps confirm my thoughts about the last section as well. 
+![flask](https://user-images.githubusercontent.com/112715031/220399301-4a171c49-65f0-44ef-831d-7d7130b13270.JPG)
+![flaskhelloworld](https://user-images.githubusercontent.com/112715031/220399312-b892bf95-a5b4-4cce-9901-3e0c1771cb60.JPG)
+
+***Week 6 Class:***
+[Slides](https://docs.google.com/presentation/d/1iCgARa2jhI0NOApFmR5njWCQ7CySHaB73SidghybsQ0/edit)
+
+
+
+
+
