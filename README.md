@@ -28,6 +28,7 @@
 [Lab 1](https://github.com/Justin-Frederickson/CPE-322-A/blob/main/README.md#lab-1---ghdl-and-gtkwave)
 [Lab 2](https://github.com/Justin-Frederickson/CPE-322-A/blob/main/README.md#lab-2-command-line)
 [Lab 3](https://github.com/Justin-Frederickson/CPE-322-A/blob/main/README.md#lab-3-python)
+[Lab 4](https://github.com/Justin-Frederickson/CPE-322-A/blob/main/README.md#lab-4-django-and-flask)
 
 ***Week 1 Class:***
 [Slides](https://docs.google.com/presentation/d/1EON8wVCtc3M37qrlbpdFvbo2FVSsxpGTJ8VCOo5dSWI/edit)
@@ -245,6 +246,7 @@ $ sudo apt install mariadb-server mariadb-client
 $ sudo apt install python3-mysqldb
 ```
 ![mariatomysqldb](https://user-images.githubusercontent.com/112715031/220396303-c136c258-ba42-4e4b-ab81-71c8653a0dce.JPG)
+#### Where Errors Start To Pile Up: ####
 - Error performing:
 ```sh
 $ sudo apt install python3-mysqldb
