@@ -222,7 +222,7 @@ $ python3 documentstats.py document.txt
  ## Lab 4: Django and Flask ##
  - For this lab, we were tasked with installing, Django, Django REST Framework, and Task.
  - We would run each individual server and record our processes.
-  - Django and Django REST Framework could not be ran, and I will explain why in the respective seciton.
+  - Django and Django REST Framework could not be ran, and I will explain why in the respective [seciton](https://github.com/Justin-Frederickson/CPE-322-A/blob/main/README.md#where-errors-start-to-pile-up).
   
 ### Django and Django REST Framework ###
  - Installing Django and Django REST framework:
