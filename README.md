@@ -277,7 +277,7 @@ $ sudo systemct1 status mysql
 
 ***Week 6 Class:***
 [Slides](https://docs.google.com/presentation/d/1iCgARa2jhI0NOApFmR5njWCQ7CySHaB73SidghybsQ0/edit)
-- In this class we
+- In this class we went over the importance of scientific and technical knowledge in the field of engineering while also talking about the need of being familiar with several different technical information.
   - Do assignment 5
   - Do lab 5
 
