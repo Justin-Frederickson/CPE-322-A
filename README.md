@@ -292,10 +292,12 @@ $ python3 client.py
 ```
 ![install paho](https://user-images.githubusercontent.com/112715031/221592672-bd79217b-a157-4be4-8673-6db2175197e2.JPG)
 
-- I then needed to run $ python3 subcpu.py on one terminal and $ python3 pubcpu.py on another.
+- I then needed to run $ python3 subcpu.py on one terminal and $ python3 pubcpu.py on another terminal.
 - Here are both terminals in action:
 ![lab5code work](https://user-images.githubusercontent.com/112715031/221593070-e93aeb8b-cbd5-4f71-9a8f-36400010ba0e.JPG)
 
+***Week 7 Class:***
+[Slides](https://docs.google.com/presentation/d/1J-EJNEV122MiwN1IBOQu3HJj3LjyDt5i6WKwBo6FmzQ/edit#slide=id.p4)
 
 
 
