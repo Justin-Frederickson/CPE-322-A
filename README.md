@@ -12,7 +12,7 @@
 - [x] Assignment 1: Project Site
 - [x] Assignment 2: Needs Assessment
 - [x] Assignment 3: Problem Formulation
-- [ ] Assignment 4: Solution Development
+- [x] Assignment 4: Solution Development
 - [ ] Assignment 5: Intellectual Properties
 - [ ] Assignment 6: Abstraction and Modeling
 - [ ] Assignment 7: Synthesis
@@ -276,6 +276,26 @@ $ sudo systemct1 status mysql
 
 ***Week 6 Class:***
 [Slides](https://docs.google.com/presentation/d/1iCgARa2jhI0NOApFmR5njWCQ7CySHaB73SidghybsQ0/edit)
+- In this class we
+  - Do assignment 5
+  - Do lab 5
+
+## Lab 5: paho-MQTT ##
+- First, I needed to install mosquitto [here](https://mosquitto.org/download/)
+- Then I needed to install Paho and run code to subscribe on one terminal and publish on another.
+```sh
+$ sudo pip3 install -U paho-mqtt
+$ git clone https://github.com/eclipse/paho.mqtt.python.git
+$ cd ~/iot/lesson5
+$ python3 client.py
+```
+![install paho](https://user-images.githubusercontent.com/112715031/221592672-bd79217b-a157-4be4-8673-6db2175197e2.JPG)
+
+- I then needed to run $ python3 subcpu.py on one terminal and $ python3 pubcpu.py on another.
+- Here are both terminals in action:
+![lab5code work](https://user-images.githubusercontent.com/112715031/221593070-e93aeb8b-cbd5-4f71-9a8f-36400010ba0e.JPG)
+
+
 
 
 
