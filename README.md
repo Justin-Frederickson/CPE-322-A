@@ -13,7 +13,7 @@
 - [x] Assignment 2: Needs Assessment
 - [x] Assignment 3: Problem Formulation
 - [x] Assignment 4: Solution Development
-- [ ] Assignment 5: Intellectual Properties
+- [x] Assignment 5: Intellectual Properties
 - [ ] Assignment 6: Abstraction and Modeling
 - [ ] Assignment 7: Synthesis
 - [ ] Assignment 8.1 and 9.1: Ethical Issues
