@@ -331,6 +331,7 @@ $ node hello.js
 $ node http.js
 ```
 For some reason, this code would run but produce no output.
+
 ![lab6httpnotworking](https://user-images.githubusercontent.com/112715031/222980999-04d2e14f-498c-41c5-9200-b72d8b9c7d64.JPG)
 
 I then installed Pystache:
