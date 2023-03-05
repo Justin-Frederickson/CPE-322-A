@@ -300,9 +300,10 @@ $ python3 client.py
 [Slides](https://docs.google.com/presentation/d/1J-EJNEV122MiwN1IBOQu3HJj3LjyDt5i6WKwBo6FmzQ/edit#slide=id.p4)
 
 - In this class we
--   Do Assignment 6
--   Do Lab 6
-
+  - Do Assignment 6
+  - Do Lab 6
+  
+## Lab 6: Node.js and Pystache ##
 
 
 
