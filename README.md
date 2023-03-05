@@ -30,6 +30,7 @@
 [Lab 3](https://github.com/Justin-Frederickson/CPE-322-A/blob/main/README.md#lab-3-python)
 [Lab 4](https://github.com/Justin-Frederickson/CPE-322-A/blob/main/README.md#lab-4-django-and-flask)
 [Lab 5](https://github.com/Justin-Frederickson/CPE-322-A/blob/main/README.md#lab-5-paho-mqtt)
+[Lab 6](https://github.com/Justin-Frederickson/CPE-322-A/blob/main/README.md#lab-6-nodejs-and-pystache)
 
 ***Week 1 Class:***
 [Slides](https://docs.google.com/presentation/d/1EON8wVCtc3M37qrlbpdFvbo2FVSsxpGTJ8VCOo5dSWI/edit)
