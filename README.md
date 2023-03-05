@@ -306,6 +306,48 @@ $ python3 client.py
   
 ## Lab 6: Node.js and Pystache ##
 
+In this Lab, I needed to:
+- Study the GitHub repository Lesson 6
+- Install Node.js and run hello-world.js, hello.js, and http.js
+- Install Pystache and run say_hello.py that uses the template in say_hello.mustache
+
+First, I needed to install node.js
+![lab6nodeinstaller](https://user-images.githubusercontent.com/112715031/222980903-e8aabe91-ad58-4224-802e-b6be43c595b6.JPG)
+
+Once installed I ran:
+```sh
+$ node hello-world.js
+```
+![hello-worldcode](https://user-images.githubusercontent.com/112715031/222980936-a52617e5-eff0-473b-a484-67e8c0be0cf3.JPG)
+![hello-worldpic](https://user-images.githubusercontent.com/112715031/222980938-c210c121-525a-47c8-87ed-e801881e074f.JPG)
+
+```sh
+$ node hello.js
+```
+![lab6hellocode](https://user-images.githubusercontent.com/112715031/222980966-1a6c5ca8-2a42-45b4-9ad3-16762ff021a0.JPG)
+![lab6hellopic](https://user-images.githubusercontent.com/112715031/222980967-8922bca8-d830-4cf7-aa89-947f25994487.JPG)
+
+```sh
+$ node http.js
+```
+For some reason, this code would run but produce no output.
+![lab6httpnotworking](https://user-images.githubusercontent.com/112715031/222980999-04d2e14f-498c-41c5-9200-b72d8b9c7d64.JPG)
+
+I then installed Pystache:
+![lab 6 install pystache](https://user-images.githubusercontent.com/112715031/222981011-53c6553d-4967-41c1-b416-0c861b96ade7.JPG)
+
+And then ran:
+```sh
+$ py say_hello.py
+```
+![lab6sayhellopy](https://user-images.githubusercontent.com/112715031/222981033-8c36e121-847f-48ed-a06e-f12fb6f4449e.JPG)
+
+***Week 8 Class:***
+[Slides](https://docs.google.com/presentation/d/1FoHPAkNGEAD7UvCQMPt411jia_23rKTWLXPbUZwykVc/edit#slide=id.p4a)
+
+
+
+
 
 
 
