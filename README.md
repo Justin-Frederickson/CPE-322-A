@@ -349,9 +349,8 @@ $ py say_hello.py
   - Do Assignment 7
   - Do Lab 7
 
-## Lab 7: ThingSpeak and Google Sheets ##
-
-
+***Week 9 Class:***
+[Slides](https://docs.google.com/presentation/d/1PZ5Y6eWRJsziN-3bcdnjVsJdStP4PqSmfKIkW54-p3Y/edit#slide=id.p4)
 
 
 
