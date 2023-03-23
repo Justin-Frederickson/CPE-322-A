@@ -14,7 +14,7 @@
 - [x] Assignment 3: Problem Formulation
 - [x] Assignment 4: Solution Development
 - [x] Assignment 5: Intellectual Properties
-- [ ] Assignment 6: Abstraction and Modeling
+- [x] Assignment 6: Abstraction and Modeling
 - [ ] Assignment 7: Synthesis
 - [ ] Assignment 8.1 and 9.1: Ethical Issues
 - [ ] Assignment 8.2 and 9.2: Product Liability
@@ -345,7 +345,11 @@ $ py say_hello.py
 
 ***Week 8 Class:***
 [Slides](https://docs.google.com/presentation/d/1FoHPAkNGEAD7UvCQMPt411jia_23rKTWLXPbUZwykVc/edit#slide=id.p4a)
+- We went over sythesis, which is the formation of a whole from a set of building blocks or constituent parts, appropriate ways to create a product or system that solves a problem
+  - Do Assignment 7
+  - Do Lab 7
 
+## Lab 7: ThingSpeak and Google Sheets ##
 
 
 
