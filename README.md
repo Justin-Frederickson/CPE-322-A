@@ -15,7 +15,7 @@
 - [x] Assignment 4: Solution Development
 - [x] Assignment 5: Intellectual Properties
 - [x] Assignment 6: Abstraction and Modeling
-- [ ] Assignment 7: Synthesis
+- [x] Assignment 7: Synthesis
 - [ ] Assignment 8.1 and 9.1: Ethical Issues
 - [ ] Assignment 8.2 and 9.2: Product Liability
 - [ ] Assignment 8.3 and 9.3: Social Impacts
@@ -351,7 +351,8 @@ $ py say_hello.py
 
 ***Week 9 Class:***
 [Slides](https://docs.google.com/presentation/d/1PZ5Y6eWRJsziN-3bcdnjVsJdStP4PqSmfKIkW54-p3Y/edit#slide=id.p4)
-
+- Assignment 8.1 & 9.1 and 8.2 & 9.2
+- Lab 8
 
 
 
