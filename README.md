@@ -354,6 +354,10 @@ $ py say_hello.py
 - Assignment 8.1 & 9.1 and 8.2 & 9.2
 - Lab 8
 
+***Week 10 Class*
+[Slides](https://docs.google.com/presentation/d/1Tw-yd9MB7jS9-2BuIQ1j_0p2jk3b3DL2yqjNIA_4fm8/edit)
+- Assignment 8.1 & 9.1, 8.2 & 9.2, and 8.3 & 9.3
+- Lab 9
 
 
 
