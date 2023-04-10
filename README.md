@@ -16,9 +16,9 @@
 - [x] Assignment 5: Intellectual Properties
 - [x] Assignment 6: Abstraction and Modeling
 - [x] Assignment 7: Synthesis
-- [ ] Assignment 8.1 and 9.1: Ethical Issues
-- [ ] Assignment 8.2 and 9.2: Product Liability
-- [ ] Assignment 8.3 and 9.3: Social Impacts
+- [x] Assignment 8.1 and 9.1: Ethical Issues
+- [x] Assignment 8.2 and 9.2: Product Liability
+- [x] Assignment 8.3 and 9.3: Social Impacts
 - [ ] Assignment 10: Design Analysis
 - [ ] Assignment 11.1: Design Diagrams
 - [ ] Assignment 11.2: Gantt Chart
@@ -358,6 +358,11 @@ $ py say_hello.py
 [Slides](https://docs.google.com/presentation/d/1Tw-yd9MB7jS9-2BuIQ1j_0p2jk3b3DL2yqjNIA_4fm8/edit)
 - Assignment 8.1 & 9.1, 8.2 & 9.2, and 8.3 & 9.3
 - Lab 9
+
+***Week 11 Class:***
+[Slides](https://docs.google.com/presentation/d/1PoPRIQ1phKxwPFS8jQjqEyGUThd3zaEeqaHt_Y151us/edit#slide=id.p4)
+- Assignment 10
+- Lab 10
 
 
 
