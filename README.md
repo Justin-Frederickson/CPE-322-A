@@ -31,6 +31,7 @@
 [Lab 4](https://github.com/Justin-Frederickson/CPE-322-A/blob/main/README.md#lab-4-django-and-flask)
 [Lab 5](https://github.com/Justin-Frederickson/CPE-322-A/blob/main/README.md#lab-5-paho-mqtt)
 [Lab 6](https://github.com/Justin-Frederickson/CPE-322-A/blob/main/README.md#lab-6-nodejs-and-pystache)
+[Lab 9](https://github.com/Justin-Frederickson/CPE-322-A/blob/main/README.md#lab-9-yang)
 
 ***Week 1 Class:***
 [Slides](https://docs.google.com/presentation/d/1EON8wVCtc3M37qrlbpdFvbo2FVSsxpGTJ8VCOo5dSWI/edit)
@@ -374,6 +375,7 @@ $ cd ~/demo
 $ cat intrusiondetection.yang
 ```
 ![pyang2](https://user-images.githubusercontent.com/112715031/232550691-55b5a062-2c41-4b2a-a504-b3ba71738704.JPG)
+
 module intrusiondetection {
 
  namespace "http://netconfcentral.org/ns/intrusiondetection";
