@@ -366,4 +366,5 @@ $ py say_hello.py
 
 ***Week 12 Class***
 [Slides](https://docs.google.com/presentation/d/1Quhm3pteMAEzaIvh7RE9E0EpwSQwz2GfPhpq_glpLwg/edit)
+- Assignment 11.1
 
