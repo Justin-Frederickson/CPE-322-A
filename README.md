@@ -359,6 +359,289 @@ $ py say_hello.py
 - Assignment 8.1 & 9.1, 8.2 & 9.2, and 8.3 & 9.3
 - Lab 9
 
+## Lab 9: Yang ##
+- in Ubuntu, install Pyang and PlantUML:
+
+```sh
+$ sudo pip3 install pyang plantuml
+$ mkdir ~/demo
+$ cp ~/iot/lesson9/intrusiondetection.yang ~/demo
+$ cd ~/demo
+```
+![pyang1](https://user-images.githubusercontent.com/112715031/232550447-21f6a5d8-9f1d-407f-b332-7187cdb5421b.JPG)
+
+```sh
+$ cat intrusiondetection.yang
+```
+![pyang2](https://user-images.githubusercontent.com/112715031/232550691-55b5a062-2c41-4b2a-a504-b3ba71738704.JPG)
+module intrusiondetection {
+
+ namespace "http://netconfcentral.org/ns/intrusiondetection";
+
+ prefix "intrusion";
+
+ description
+  "YANG module for Intrusion Detection IoT system";
+
+ revision 2014-07-15 {
+  description "Intrusion Detection System";
+ }
+
+ grouping room {
+  leaf doorsensorID {
+   type string;
+   description
+    "ID of door sensor in the room";
+  }
+  leaf motionsensorID {
+   type string;
+   description
+    "ID of motion sensor in the room";
+  }
+ }
+
+ container intrusiondetection {
+  presence
+   "Indicates the service is available";
+
+  description
+   "Top-level container for all system objects.";
+
+  leaf systemID {
+   type string;
+   config false;
+   mandatory true;
+   description
+   "ID of the system";
+  }
+
+  leaf systemLocation {
+   type string;
+   config false;
+   mandatory true;
+   description
+   "The location of the system";
+  }
+
+  leaf systemStatus {
+   type enumeration {
+    enum up {
+    value 1;
+    description
+     "This is powered up";
+    }
+    enum down {
+    value 2;
+    description
+     "This is powered down";
+    }
+    enum armed {
+    value 3;
+    description
+     "This is armed";
+    }
+    enum disarmed {
+    value 4;
+    description
+     "This is disarmed";
+    }
+   }
+   config false;
+   mandatory true;
+   description
+   "This variable indicates the current state of
+    the system.";
+  }
+    container sensors {
+   uses room;
+   config false;
+  }
+ }
+
+ rpc arm-system {
+  description
+   "Arm the system";
+ }
+
+ rpc disarm-system {
+  description
+   "Disarm the system";
+ }
+
+ notification systemArmed {
+  description
+   "Indicates that system has been armed.";
+
+  leaf armStatus {
+   description
+    "Indicates the system arming status";
+
+   type enumeration {
+    enum armed {
+    description
+     "The system was armed.";
+    }
+
+    enum disarmed {
+    description
+     "The system was disarmed.";
+    }
+
+    enum error {
+    description
+     "The system is broken.";
+    }
+   }
+  }
+ }
+}
+
+```sh
+$ pyang -f yin -o intrusiondetection.yin intrusiondetection.yang
+$ cat intrusiondetection.yin
+```
+
+![pyang3](https://user-images.githubusercontent.com/112715031/232550994-93b77d5d-fea9-4f85-b5f8-a05d4b6297ea.JPG)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="intrusiondetection"
+        xmlns="urn:ietf:params:xml:ns:yang:yin:1"
+        xmlns:intrusion="http://netconfcentral.org/ns/intrusiondetection">
+  <namespace uri="http://netconfcentral.org/ns/intrusiondetection"/>
+  <prefix value="intrusion"/>
+  <description>
+    <text>YANG module for Intrusion Detection IoT system</text>
+  </description>
+  <revision date="2014-07-15">
+    <description>
+      <text>Intrusion Detection System</text>
+    </description>
+  </revision>
+  <grouping name="room">
+    <leaf name="doorsensorID">
+      <type name="string"/>
+      <description>
+        <text>ID of door sensor in the room</text>
+      </description>
+    </leaf>
+    <leaf name="motionsensorID">
+      <type name="string"/>
+      <description>
+        <text>ID of motion sensor in the room</text>
+      </description>
+    </leaf>
+  </grouping>
+  <container name="intrusiondetection">
+    <presence value="Indicates the service is available"/>
+    <description>
+      <text>Top-level container for all system objects.</text>
+    </description>
+    <leaf name="systemID">
+      <type name="string"/>
+      <config value="false"/>
+      <mandatory value="true"/>
+      <description>
+        <text>ID of the system</text>
+      </description>
+    </leaf>
+    <leaf name="systemLocation">
+      <type name="string"/>
+      <config value="false"/>
+      <mandatory value="true"/>
+      <description>
+        <text>The location of the system</text>
+      </description>
+    </leaf>
+    <leaf name="systemStatus">
+      <type name="enumeration">
+        <enum name="up">
+          <value value="1"/>
+          <description>
+            <text>This is powered up</text>
+          </description>
+        </enum>
+        <enum name="down">
+          <value value="2"/>
+          <description>
+            <text>This is powered down</text>
+          </description>
+        </enum>
+        <enum name="armed">
+          <value value="3"/>
+          <description>
+            <text>This is armed</text>
+          </description>
+        </enum>
+        <enum name="disarmed">
+          <value value="4"/>
+          <description>
+            <text>This is disarmed</text>
+          </description>
+        </enum>
+      </type>
+      <config value="false"/>
+      <mandatory value="true"/>
+      <description>
+        <text>This variable indicates the current state of
+the system.</text>
+      </description>
+    </leaf>
+    <container name="sensors">
+      <uses name="room"/>
+      <config value="false"/>
+    </container>
+  </container>
+  <rpc name="arm-system">
+    <description>
+      <text>Arm the system</text>
+    </description>
+  </rpc>
+  <rpc name="disarm-system">
+    <description>
+      <text>Disarm the system</text>
+    </description>
+  </rpc>
+  <notification name="systemArmed">
+    <description>
+      <text>Indicates that system has been armed.</text>
+    </description>
+    <leaf name="armStatus">
+      <description>
+        <text>Indicates the system arming status</text>
+      </description>
+      <type name="enumeration">
+        <enum name="armed">
+          <description>
+            <text>The system was armed.</text>
+          </description>
+        </enum>
+        <enum name="disarmed">
+          <description>
+            <text>The system was disarmed.</text>
+          </description>
+        </enum>
+        <enum name="error">
+          <description>
+            <text>The system is broken.</text>
+          </description>
+        </enum>
+      </type>
+    </leaf>
+  </notification>
+</module>
+
+```sh
+$ pyang -f uml -o intrusiondetection.uml intrusiondetection.yang --uml-no=stereotypes,annotation,typedef
+$ cat intrusiondetection.uml
+$ python3 -m plantuml intrusiondetection.uml
+```
+
+![pyang4](https://user-images.githubusercontent.com/112715031/232551231-16de6ebc-9993-4f01-9531-f1d4840f5929.JPG)
+
+- I then needed to run PlantUML to generate intrusiondetection.png: 
+
+![pyang5](https://user-images.githubusercontent.com/112715031/232551498-4f025f37-889b-4899-9380-b55dd83cc557.JPG)
+
 ***Week 11 Class:***
 [Slides](https://docs.google.com/presentation/d/1PoPRIQ1phKxwPFS8jQjqEyGUThd3zaEeqaHt_Y151us/edit#slide=id.p4)
 - Assignment 10
