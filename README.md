@@ -20,8 +20,8 @@
 - [x] Assignment 8.2 and 9.2: Product Liability
 - [x] Assignment 8.3 and 9.3: Social Impacts
 - [x] Assignment 10: Design Analysis
-- [ ] Assignment 11.1: Design Diagrams
-- [ ] Assignment 11.2: Gantt Chart
+- [x] Assignment 11.1: Design Diagrams
+- [x] Assignment 11.2: Gantt Chart
 - [ ] Assignment 11.3: Senior Design Plan
 
 ## Take Me To: 
@@ -652,4 +652,7 @@ $ python3 -m plantuml intrusiondetection.uml
 ***Week 12 Class***
 [Slides](https://docs.google.com/presentation/d/1Quhm3pteMAEzaIvh7RE9E0EpwSQwz2GfPhpq_glpLwg/edit)
 - Assignment 11.1
+
+***Week 13 Class***
+- Assignment 11.2
 
